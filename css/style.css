@@ -306,6 +306,10 @@ body {
   font-size: 24px;
 }
 
+.wow {
+  visibility: hidden;
+}
+
 /*  ======== TOP ======== */
 .top {
   padding: 20px 10px;
@@ -2221,6 +2225,7 @@ body {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+  margin: 0 auto;
 }
 
 @media (min-width: 900px) {
@@ -2278,6 +2283,11 @@ body {
 @media (min-width: 768px) {
   .custom {
     max-width: 470px;
+  }
+}
+
+@media (min-width: 900px) {
+  .custom {
     margin: 15px auto 15px 0;
   }
 }

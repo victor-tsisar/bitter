@@ -127,4 +127,12 @@ $(document).ready(function () {
         ]
     });
 
+    let wow = new WOW(
+        {
+            animateClass: 'animate__animated',
+            offset: 10,
+            mobile: true,
+        }
+    );
+    wow.init();
 });
